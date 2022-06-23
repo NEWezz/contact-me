@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact me</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style-form.css">
+</head>
+
+<body>
+
+
+  <section class="container-form">
+
+    <div class="bg-image-uno">
+
+      <div class="bg-image-user">
+      </div>
+
+      <div class="form-social-contact">
+        <a href="#" class="what">
+          <ion-icon name="logo-whatsapp"></ion-icon> WhatsApp
+        </a>
+        <a href="#" class="git">
+          <ion-icon name="logo-github"></ion-icon> GitHub
+        </a>
+        <a href="#" class="link">
+          <ion-icon name="logo-linkedin"></ion-icon> Linkedin
+        </a>
+      </div>
+    </div>
+
+    <div class="form-contact-me">
+      <div>
+        <h2> <span>Contact</span> me</h2>
+      </div>
+
+
+      <form action="https://formsubmit.co/ezequiellosanto6@gmail.com" method="POST">
+        <div class="flex-row">
+          <input type="text" placeholder="Your name" maxlength="10" name="text" required>
+          <input type="email" placeholder="Your email"
+            pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" name="email"
+            required>
+        </div>
+
+        <textarea name="textarea" id="" cols="30" rows="10" placeholder="Message"></textarea 
+          required>
+        <input type="submit" value="Send" required>
+      </form>
+    </div>
+
+  </section>
+
+  <script module src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
